@@ -4,6 +4,7 @@ import { styles } from "../style";
 import { Tilt } from "react-tilt";
 import { services } from "../constants/index";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -53,4 +54,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper(About, "about");
