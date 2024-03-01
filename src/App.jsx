@@ -11,12 +11,14 @@ import {
   StarsCanvas,
 } from "./components";
 const App = () => {
+  
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bf-cover bg-no-repeat bg-center">
+        <div className="bf-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+
         </div>
 
         <div className="relative z-0">
@@ -24,7 +26,7 @@ const App = () => {
           <Experience />
           <Tech />
           <Works />
-          <Feedbacks />
+          {/* <Feedbacks /> */}
           <Contact />
           <StarsCanvas />
         </div>

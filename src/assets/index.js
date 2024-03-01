@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
+// import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -29,11 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import python from "./python.png";
+import accenture from "./accenture.png";
+import fotoley from "./fotoley.png";
 
 export {
   logo,
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -59,4 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  accenture,
+  fotoley,
 };
